@@ -1,7 +1,9 @@
 // Klasse CSharp erweitert Programmiersprache
 public class CSharp extends Programmiersprache {
     // Feld: statisch getypt
-    private boolean istStatischGetypt;
+    // wieso final und nicht private?
+    // final: Wert kann nicht geändert werden
+    private final boolean istStatischGetypt;
 
     // Hauptkonstruktor
     public CSharp(String name, String erfinder, boolean istStatischGetypt) {

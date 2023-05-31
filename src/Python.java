@@ -1,7 +1,8 @@
 // Klasse Python erweitert Programmiersprache
 public class Python extends Programmiersprache {
     // Feld: unterstützt List Comprehensions
-    private boolean unterstuetztListComprehensions;
+    // final, weil sich der Wert nicht ändert
+    private final boolean unterstuetztListComprehensions;
 
     // Hauptkonstruktor
     public Python(String name, String erfinder, boolean unterstuetztListComprehensions) {

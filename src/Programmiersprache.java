@@ -1,9 +1,11 @@
 // Klasse Programmiersprache
 public class Programmiersprache {
     // Feld: Name
-    private String name;
+    // Der Name ist final, da er sich nicht ändert
+    private final String name;
     // Feld: Erfinder
-    private String erfinder;
+    // Der Erfinder ist final, da er sich nicht ändert
+    private final String erfinder;
 
     // Hauptkonstruktor
     public Programmiersprache(String name, String erfinder) {

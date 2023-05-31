@@ -1,7 +1,8 @@
 // Klasse JavaScript erweitert Programmiersprache
 public class JavaScript extends Programmiersprache {
     // Feld: Dynamisch getypt
-    private boolean istDynamischGetypt;
+    // wird sich nicht ändern, daher final
+    private final boolean istDynamischGetypt;
 
     // Hauptkonstruktor
     public JavaScript(String name, String erfinder, boolean istDynamischGetypt) {
